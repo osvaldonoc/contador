@@ -6,7 +6,7 @@ const ListaNombres = () =>{
     const [nombre, setNombre] = useState("");
     const [nombres, setNombres] = useState([]);
     const guardar = () =>{
-        setNombres([ ... nombres, nombre]);
+        setNombres([ ...nombres, nombre]);
         setNombre("");
     }
 
